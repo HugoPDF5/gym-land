@@ -155,33 +155,3 @@
     z-index: -1;
 }
 
-.calories {
-    display: flex;
-    gap: 2rem;
-    background-color: var(--caloryCard);
-    border-radius: 5px;
-    padding: 1rem;
-    width: fit-content;
-    position: absolute;
-    right: 28rem;
-    top: 32rem;
-
-    img {
-        width: 3rem;
-    }
-
-    div {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
-        :nth-child(1){
-            color: var(--gray);
-        }
-
-        :nth-child(2){
-            color: white;
-            font-size: 1.5rem;
-        }
-    }
-}
