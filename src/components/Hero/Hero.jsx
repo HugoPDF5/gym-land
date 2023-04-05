@@ -3,7 +3,6 @@ import Header from '../Header/Header'
 import Hero_image from '../../assets/hero_image.png'
 import Hero_image_back from '../../assets/hero_image_back.png'
 import Heart from '../../assets/heart.png'
-import Calories from '../../assets/calories.png'
 import './hero.scss'
 
 const Hero = () => {
