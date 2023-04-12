@@ -164,70 +164,70 @@
     .hero {
         flex-direction: column;
 
-    .hero-blur {
-        width: 14rem;
-    }
-
-    .left-h {
-        .the-best-ad {
-            font-size: small;
-            margin-top: 0;
-            align-self: center;
-            transform: scale(0.8);
+        .hero-blur {
+            width: 14rem;
         }
-        
-        .hero-text {
-        font-size: xx-large;
-        align-items: center;
-        justify-content: center;
-        
-        >div:nth-of-type(3) {
-            font-size: small;
-            font-weight: 200;
-            letter-spacing: 1px;
-            text-align: center;
-        }
-    }
 
-    .hero-buttons {
-        justify-content: center;
-    }
-    
-    .figures {
-        >div {
-            >span:nth-of-type(1) {
-                font-size: large;
-            }
-
-            >span:nth-of-type(2) {
+        .left-h {
+            .the-best-ad {
                 font-size: small;
+                margin-top: 0;
+                align-self: center;
+                transform: scale(0.8);
+            }
+
+            .hero-text {
+                font-size: xx-large;
+                align-items: center;
+                justify-content: center;
+
+                >div:nth-of-type(3) {
+                    font-size: small;
+                    font-weight: 200;
+                    letter-spacing: 1px;
+                    text-align: center;
+                }
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .figures {
+                >div {
+                    >span:nth-of-type(1) {
+                        font-size: large;
+                    }
+
+                    >span:nth-of-type(2) {
+                        font-size: small;
+                    }
+                }
+            }
+        }
+
+        .right-h {
+            position: relative;
+            background: none;
+
+            .heart-rate {
+                left: 1rem;
+                top: 2rem;
+            }
+
+            .hero-image {
+                position: relative;
+                width: 15rem;
+                left: 10rem;
+                top: 4rem;
+                align-self: center;
+            }
+
+            .hero-image-back {
+                width: 15rem;
+                left: 2rem;
+                top: 0rem;
             }
         }
     }
-}
-    
-    .right-h {
-        position: relative;
-        background: none;
-        
-        .heart-rate {
-            left: 1rem;
-            top: 2rem;
-        }
-
-        .hero-image {
-            position: relative;
-            width: 15rem;
-            left: 10rem;
-            top: 4rem;
-            align-self: center;
-        }
-
-        .hero-image-back {
-            width: 15rem;
-            left: 2rem;
-            top: 0rem;
-        }
-    }
-}
 }

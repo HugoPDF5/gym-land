@@ -62,8 +62,6 @@ const Hero = () => {
 
             </div>
             <div className="right-h">
-                <button className='btn'>Join Now</button>
-
                 <motion.div
                     initial={{ right: '-1rem' }}
                     whileInView={{ right: '4rem' }}

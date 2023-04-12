@@ -43,7 +43,7 @@ const Reasons = () => {
                         <img src={tick} alt="" />
                         <span>RELIABRE PARTNERS</span>
                     </div>
-                    <span style={{color: 'var(--gray)', fontWeight: 'normal', fontSize: '1rem' }}>OUR PARTNERS</span>
+                    <span style={{ color: 'var(--gray)', fontWeight: 'normal', fontSize: '1rem' }}>OUR PARTNERS</span>
                     <div className="partners">
                         <img src={nb} alt="" />
                         <img src={adidas} alt="" />
